@@ -5,19 +5,20 @@ SQL Server and Power BI analysis of 19.6M NYC High-Volume For-Hire Vehicle trips
 
 ## Table of Contents
 
-- [1. Executive Summary](executive-summary)
-- [2. Project Overview](project-overview)
-- [3. Data Overview](data-overview)
-- [4. Problem Statement](problem-statement)
-- [5. Tools & Methodology](tools--methodology)
-- [6. Exploratory & Diagnostic Analysis](#exploratory--diagnostic-analysis)
-- [7. Data Preparation for Decision-Making](#data-preparation-for-decision-making)
-- [8. Key Insights](#key-insights)
-- [9. Dashboard Overview](#dashboard-overview)
-- [10. Recommendations](#recommendations)
-- [11. Limitations](#limitations)
-- [12. Conclusion](#conclusion)
-- [13. Repository Structure](#repository-structure)
+- [Executive Summary](executive-summary)
+- [Project Overview](project-overview)
+- [Data Overview](data-overview)
+- [Problem Statement](problem-statement)
+- [Tools & Methodology](tools--methodology)
+- [Exploratory & Diagnostic Analysis](#exploratory--diagnostic-analysis)
+- [Data Preparation for Decision-Making](#data-preparation-for-decision-making)
+- [Key Insights](#key-insights)
+- [Dashboard Overview](#dashboard-overview)
+- [Recommendations](#recommendations)
+- [Limitations](#limitations)
+- [Conclusion](#conclusion)
+- [Repository Structure](#repository-structure)
+  
 ---
 
 ##  Executive Summary
