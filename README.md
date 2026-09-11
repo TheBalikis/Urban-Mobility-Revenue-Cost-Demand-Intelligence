@@ -5,23 +5,22 @@ SQL Server and Power BI analysis of 19.6M NYC High-Volume For-Hire Vehicle trips
 
 ## Table of Contents
 
-- [1. Executive Summary](#1-executive-summary)
-- [2. Project Overview](#2-project-overview)
-- [3. Data Overview](#3-data-overview)
-- [4. Problem Statement](#4-problem-statement)
-- [5. Tools & Methodology](#5-tools--methodology)
-- [6. Exploratory & Diagnostic Analysis](#6-exploratory--diagnostic-analysis)
-- [7. Data Preparation for Decision-Making](#7-data-preparation-for-decision-making)
-- [8. Key Insights](#8-key-insights)
-- [9. Dashboard Overview](#9-dashboard-overview)
-- [10. Recommendations](#10-recommendations)
-- [11. Limitations](#11-limitations)
-- [12. Conclusion](#12-conclusion)
-- [13. Repository Structure](#13-repository-structure)
-
+- [1. Executive Summary](executive-summary)
+- [2. Project Overview](project-overview)
+- [3. Data Overview](data-overview)
+- [4. Problem Statement](problem-statement)
+- [5. Tools & Methodology](tools--methodology)
+- [6. Exploratory & Diagnostic Analysis](#exploratory--diagnostic-analysis)
+- [7. Data Preparation for Decision-Making](#data-preparation-for-decision-making)
+- [8. Key Insights](#key-insights)
+- [9. Dashboard Overview](#dashboard-overview)
+- [10. Recommendations](#recommendations)
+- [11. Limitations](#limitations)
+- [12. Conclusion](#conclusion)
+- [13. Repository Structure](#repository-structure)
 ---
 
-## 1. Executive Summary
+##  Executive Summary
 
 NYC's High-Volume For-Hire Vehicle (HVFHV) market generates millions of trips across changing demand periods, geographic locations, and operating conditions. However, total trip volume alone does not explain where demand is concentrated, how revenue relates to driver compensation, or whether fleet capacity is aligned with market activity.
 
@@ -31,7 +30,7 @@ The project processed approximately **19.66 million trips**, generating **$470.3
 
 ---
 
-## 2. Project Overview
+##  Project Overview
 
 ### Business Context
 
@@ -62,7 +61,7 @@ The analysis was designed to answer the following questions:
 
 ---
 
-## 3. Data Overview
+##  Data Overview
 
 The project combines three NYC TLC data sources.
 
@@ -116,7 +115,7 @@ The NYC TLC taxi zone lookup table was used to connect trip location IDs with:
 
 ---
 
-## 4. Problem Statement
+## Problem Statement
 
 The HVFHV market operates at a scale where aggregate trip counts alone are insufficient for understanding operational performance.
 
@@ -133,7 +132,7 @@ This project analyzes trip-level and monthly operational data together to identi
 
 ---
 
-## 5. Tools & Methodology
+##  Tools & Methodology
 
 ### Tools Used
 
@@ -162,7 +161,7 @@ The project followed these stages:
 
 ---
 
-## 6. Exploratory & Diagnostic Analysis
+##  Exploratory & Diagnostic Analysis
 
 The analysis was designed to move beyond descriptive reporting.
 
@@ -210,7 +209,7 @@ The goal was to connect observed patterns with decisions rather than stopping at
 
 ---
 
-## 7. Data Preparation for Decision-Making
+##  Data Preparation for Decision-Making
 
 The raw data was not used directly for analysis.
 
@@ -320,7 +319,7 @@ This analysis established the relationship between passenger fares and driver co
 
 ---
 
-## 8. Key Insights
+##  Key Insights
 
 ### Demand Is Concentrated in Specific Operating Periods
 
@@ -353,11 +352,11 @@ The monthly operations data shows a major disruption around 2020 followed by rec
 
 ---
 
-## 9. Dashboard Overview
+##  Dashboard Overview
 
 The Power BI dashboard was designed as a decision-support tool rather than a collection of unrelated visuals.
 
-### Page 1 — Executive Summary
+###  Executive Summary
 
 Provides a high-level view of overall performance, including:
 
@@ -367,7 +366,7 @@ Provides a high-level view of overall performance, including:
 - Average trip distance
 - Long-term trip activity
 
-### Page 2 — Operations & Revenue
+###   Operations & Revenue
 
 Examines:
 
@@ -376,10 +375,10 @@ Examines:
 - Driver Pay % of Fare
 - Fare vs. driver pay by borough
 - Revenue vs. driver pay by hour
-- Gross margin by borough and license class
+- Gross margin by borough 
 - Top pickup zones by revenue
 
-### Page 3 — Demand & Geographic Patterns
+###  Demand & Geographic Patterns
 
 Focuses specifically on when and where demand occurs:
 
@@ -389,7 +388,7 @@ Focuses specifically on when and where demand occurs:
 
 No financial KPIs were included on this page so demand and geographic patterns remain the focus.
 
-### Page 4 — Fleet & Market Intelligence
+### Page  Fleet & Market Intelligence
 
 Examines longer-term market and operating patterns:
 
@@ -400,7 +399,7 @@ Examines longer-term market and operating patterns:
 
 ---
 
-## 10. Recommendations
+##  Recommendations
 
 **1. Align Fleet Availability With Peak Demand**
 Prioritize driver and vehicle availability during periods of consistently high demand, particularly during the late afternoon and evening.
@@ -419,7 +418,7 @@ Fleet and driver levels should be evaluated alongside trip demand and utilizatio
 
 ---
 
-## 11. Limitations
+## Limitations
 
 This analysis has several limitations:
 
@@ -428,11 +427,11 @@ This analysis has several limitations:
 - The analysis does not include complete operator-level costs, so fare minus driver pay should not be treated as net profit.
 - The monthly data contains reported operational metrics that may not capture every aspect of fleet performance.
 - Some source fields are unavailable or incomplete across all periods and license classes.
-- The project analyzes historical patterns and does not forecast future demand.
+- This project describes historical demand and market patterns; it does not build predictive models to forecast future demand.
 
 ---
 
-## 12. Conclusion
+##  Conclusion
 
 This project demonstrates how large-scale urban mobility data can be transformed from raw trip records into a structured decision-support solution.
 
@@ -444,7 +443,7 @@ The final analysis provides a framework for understanding where demand is concen
 
 ---
 
-## 13. Repository Structure
+##  Repository Structure
 
     urban-mobility-revenue-cost-intelligence/
     ├── README.md
