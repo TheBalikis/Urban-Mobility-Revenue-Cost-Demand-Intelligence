@@ -445,7 +445,7 @@ The final analysis provides a framework for understanding where demand is concen
 ---
 
 ##  Repository Structure
-
+```text
     urban-mobility-revenue-cost-intelligence/
     ├── README.md
     ├── sql/
@@ -458,5 +458,6 @@ The final analysis provides a framework for understanding where demand is concen
     └── docs/
         ├── Data_Dictionary.xlsx
         └── FHVHV_Pipeline_Documentation.docx
+```
 
 **Note:** The Power BI (`.pbix`) file is not included in this repository due to its size. Dashboard screenshots are included in the [Dashboard Overview](#9-dashboard-overview) section above, and the file is available on request.
