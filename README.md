@@ -365,6 +365,11 @@ Provides a high-level view of overall performance, including:
 - Average trip distance
 - Long-term trip activity
 
+ ![Executive Summary](doc/screenshots/01-executive-summary.png)
+
+
+
+
 ###   Operations & Revenue
 
 Examines:
@@ -377,6 +382,11 @@ Examines:
 - Gross margin by borough 
 - Top pickup zones by revenue
 
+![Operations and Revenue](doc/screenshots/02-operations-and-revenue.png)
+
+
+
+
 ###  Demand & Geographic Patterns
 
 Focuses specifically on when and where demand occurs:
@@ -387,7 +397,12 @@ Focuses specifically on when and where demand occurs:
 
 No financial KPIs were included on this page so demand and geographic patterns remain the focus.
 
-### Page  Fleet & Market Intelligence
+![Demand and Geographic Patterns](doc/screenshots/03-demand-and-geographic-patterns.png)
+
+
+
+
+### Fleet & Market Intelligence
 
 Examines longer-term market and operating patterns:
 
@@ -395,6 +410,9 @@ Examines longer-term market and operating patterns:
 - Vehicle and driver utilization
 - Driver and vehicle growth
 - Trip duration and shared-trip trends
+
+![Fleet and Market](doc/screenshots/04-fleet-and-market.png)
+
 
 ---
 
