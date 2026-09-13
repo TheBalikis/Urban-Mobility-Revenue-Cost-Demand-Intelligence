@@ -7,8 +7,8 @@ SQL Server and Power BI analysis of 19.6M NYC High-Volume For-Hire Vehicle trips
 - [Project Overview](project-overview)
 - [Data Overview](data-overview)
 - [Problem Statement](problem-statement)
-- [Tools & Methodology](tools--methodology)
-- [Exploratory & Diagnostic Analysis](#exploratory--diagnostic-analysis)
+- [Tools and Methodology](tools--methodology)
+- [Exploratory and Diagnostic Analysis](#exploratory--diagnostic-analysis)
 - [Data Preparation for Decision-Making](#data-preparation-for-decision-making)
 - [Key Insights](#key-insights)
 - [Dashboard Overview](#dashboard-overview)
@@ -131,7 +131,7 @@ This project analyzes trip-level and monthly operational data together to identi
 
 ---
 
-##  Tools & Methodology
+##  Tools and Methodology
 
 ### Tools Used
 
@@ -160,7 +160,7 @@ The project followed these stages:
 
 ---
 
-##  Exploratory & Diagnostic Analysis
+##  Exploratory and Diagnostic Analysis
 
 The analysis was designed to move beyond descriptive reporting.
 
@@ -370,7 +370,7 @@ Provides a high-level view of overall performance, including:
 
 
 
-###   Operations & Revenue
+###   Operations and Revenue
 
 Examines:
 
@@ -387,7 +387,7 @@ Examines:
 
 
 
-###  Demand & Geographic Patterns
+###  Demand and Geographic Patterns
 
 Focuses specifically on when and where demand occurs:
 
@@ -402,7 +402,7 @@ No financial KPIs were included on this page so demand and geographic patterns r
 
 
 
-### Fleet & Market Intelligence
+### Fleet and Market Intelligence
 
 Examines longer-term market and operating patterns:
 
